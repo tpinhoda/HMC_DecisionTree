@@ -1,0 +1,6 @@
+modify
+arff to csv
+merge
+FiltrarRBF
+split test train
+createnodes

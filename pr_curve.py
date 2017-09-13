@@ -335,7 +335,6 @@ def get_points(prec_a, prec_b, rec_a, rec_b, tpa, tpb, fpa, fpb, fna, fnb, count
 
 def pr_auc_sklearn(y_true, y_pred, plot=False):
 
-    import matplotlib.pyplot as plt
     import numpy as np
     from sklearn.metrics import precision_recall_curve
     from sklearn.metrics import average_precision_score
